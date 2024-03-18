@@ -1,0 +1,49 @@
+/*Large Background Image*/
+html {
+  background: url(../img/me2.jpg);
+  background-size: cover;
+  background-position: bottom;
+  /* Add a height of 100% */
+  height: 100%;
+}
+
+body {
+  /* Add a height of 100% */
+  height: 100%;
+}
+
+.wrapper {
+  /* Add display: flex; and the Flexbox properties to center the "content" */
+  display: flex;
+  justify-content: center; /* center .content div long the main axis (horizontally) */
+  align-items: center;     /* center .ccontent div across the axis (veritically) */
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  /* Add display: flex; and the Flexbox properties to center the "content" */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* This is a fallback for the translucent background for older browsers */
+  background: #FFF;
+  background: rgba(255, 255, 255, 0.6);
+  color: #222;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 10px;
+  width: 400px;
+  height: 400px;
+}
+
+.main-paragraph {
+  width: 75%;
+}
+
+.content p span {
+  font-family: 'Lora', sans-serif;
+  font-size: 1.5rem;
+}
